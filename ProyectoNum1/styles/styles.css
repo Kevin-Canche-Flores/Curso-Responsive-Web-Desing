@@ -1,0 +1,100 @@
+body {
+  background-image: url(../images/12133.jpg);
+  background-attachment: fixed;
+  color: white;
+  font-family: Tahoma;
+  margin: 0;
+  
+}
+
+h1, #description {
+  text-align: center;
+}
+
+#survey-form{
+  font-size: 1.2rem;
+  width: 80%;
+  min-width: 300px;
+  max-width: 700px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  background-color: rgba(27, 27, 50, 0.7);
+  display: block;
+  border-radius: 1em;
+}
+
+#survey-form p {
+  margin-top: 30px;
+  margin-bottom: 0.250rem;
+}
+
+fieldset{
+  width: 90%;
+  margin: 0 auto;
+  border: none;
+  padding: 1.5rem auto;
+  /* border-bottom: 3px solid #3b3b4f; */
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  width: 90%;
+  margin: 0.7rem auto;
+  
+}
+
+input,
+select,
+textarea { 
+  font-size: 1rem; 
+  width: 100%;
+  margin: 10px 0 0 0;
+  min-height: 1.5em;
+  padding: 0.375rem 0;
+  color: red;
+}
+
+input, select {
+  border-radius: 5px;
+}
+
+select {
+  height: 2.5em;
+  margin-left: 2px;
+}
+
+.inline {
+  width: unset;
+  vertical-align: middle;
+  margin: 0 0 1px 0;
+  margin-right: .3em;
+  height: 20px;
+  width: 20px;
+}
+
+.submit-button {
+  font-size: .825em;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  width: 90%;
+  padding: 0.75rem 0;
+  background-color: red;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.submit-button:hover {
+  background-color: #37af65;
+  color: white;
+}
+
+.submit-button:active {
+  background-color: red;
+  color: white;
+}
+
